@@ -499,7 +499,7 @@ Plandir=inputfile
 Tretdir=outputfile
 
 Z1a,IP1a,IT1a,MP2a,MT2a=eng.blarloadpycall(Plandir,Tretdir,nargout=5)
-# ITE,MTE,IT1,MT2,IP1,MP2,Dice,Nmse,Nmse1=dblmoverall(Z1a,IP1a,IT1a,MP2a,MT2a,lambdadist,lambdaomeg,indSize,mbSize,p,m,n,costV)
+ITE,MTE,IT1,MT2,IP1,MP2,Dice,Nmse,Nmse1=dblmoverall(Z1a,IP1a,IT1a,MP2a,MT2a,lambdadist,lambdaomeg,indSize,mbSize,p,m,n,costV)
 # OPele=[TretData,Dice]
 # OP.append(OPele)
 # DP.append(Dice)
